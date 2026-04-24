@@ -9,6 +9,8 @@ Raw e-commerce event data arrives fragmented and unstructured. This pipeline cle
 ## Architecture
 
 Raw Events (BigQuery) -> Airflow DAG (daily schedule) -> Golden Dataset (validated, enriched) -> Product Performance | Funnel Drop-off | Time Analysis | Top/Bottom Performers -> Jupyter Notebook (Plotly visualizations)
+<img width="1440" height="1040" alt="image" src="https://github.com/user-attachments/assets/9edcf57b-4fed-4c55-ac64-38f8481783d9" />
+
 
 ## Stack
 
